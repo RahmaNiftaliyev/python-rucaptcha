@@ -8,70 +8,80 @@ To import this module:
     from python_rucaptcha.core import enums
 
 
-.. autoclass:: python_rucaptcha.core.enums.MyEnum
+.. autoenum:: python_rucaptcha.core.enums.MyEnum
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.ServiceEnm
+.. autoenum:: python_rucaptcha.core.enums.ServiceEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.SaveFormatsEnm
+.. autoenum:: python_rucaptcha.core.enums.SaveFormatsEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.GeetestEnm
+.. autoenum:: python_rucaptcha.core.enums.GeetestEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.ImageCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.ImageCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.CapyPuzzleEnm
+.. autoenum:: python_rucaptcha.core.enums.CapyPuzzleEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.FunCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.FunCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.ReCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.ReCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.LeminCroppedCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.LeminCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.HCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.HCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.KeyCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.KeyCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.RotateCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.RotateCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.TikTokCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.ControlEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.ControlEnm
+.. autoenum:: python_rucaptcha.core.enums.TurnstileCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.YandexSmartCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.AmazonWAFCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.TurnstileCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.CutCaptchaEnm
     :members:
-    :undoc-members:
 
-.. autoclass:: python_rucaptcha.core.enums.AmazonWAFCaptchaEnm
+.. autoenum:: python_rucaptcha.core.enums.DataDomeSliderEnm
     :members:
-    :undoc-members:
+
+.. autoenum:: python_rucaptcha.core.enums.CyberSiARAEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.MTCaptchaEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.BoundingBoxCaptchaEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.DrawAroundCaptchaEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.CoordinatesCaptchaEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.GridCaptchaEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.FriendlyCaptchaEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.TencentEnm
+    :members:
+
+.. autoenum:: python_rucaptcha.core.enums.atbCaptchaEnm
+    :members:
