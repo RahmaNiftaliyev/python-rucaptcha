@@ -1,8 +1,8 @@
 install:
-	cd src/ && pip install -e .
+	pip3 install -e .
 
 remove:
-	pip uninstall python_rucaptcha -y
+	pip3 uninstall python_rucaptcha -y
 
 refactor:
 	black docs/
@@ -23,12 +23,17 @@ lint:
 	black src/ --check && \
 	isort src/ --check-only
 
+build:
+	pip3 install --upgrade build setuptools
+	python3 -m build
+
 upload:
-	pip install twine
-	cd src/ && python setup.py upload
+	pip3 install twine wheel setuptools build
+	twine upload dist/*
 
 tests: install
-	coverage run --rcfile=.coveragerc -m pytest --verbose --showlocals --pastebin=all tests --disable-warnings && \
+	coverage run --rcfile=.coveragerc -m pytest --verbose --showlocals --pastebin=all \
+	tests/ --disable-warnings && \
 	coverage report --precision=3 --sort=cover --skip-empty --show-missing && \
 	coverage html --precision=3 --skip-empty -d coverage/html/ && \
 	coverage xml -o coverage/coverage.xml

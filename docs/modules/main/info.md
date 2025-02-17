@@ -1,18 +1,18 @@
 # Introduction
 
 
-![](../../_static/CaptchaSm.png)
+![](../../_static/RuCaptchaMedium.png)
 
-<a href="https://dashboard.capsolver.com/passport/register?inviteCode=kQTn-tG07Jb1">
-    <img src="https://cdn.discordapp.com/attachments/1105172394655625306/1105180101802471575/20221207-160749.gif" alt="Capsolver's Banner">
-</a>
-<br>
-At the lowest price on the market, you may receive a variety of solutions, including reCAPTCHA V2, reCAPTCHA V3, hCaptcha, hCaptcha Click, FunCaptcha, picture-to-text, and more. With this service, 0.1s is the slowest speed ever measured.
+### [Capsolver](https://www.capsolver.com/?utm_source=github&utm_medium=repo&utm_campaign=scraping&utm_term=python-rucaptcha)
+
+[![Capsolver](../../_static/capsolver.jpg)](https://www.capsolver.com/?utm_source=github&utm_medium=repo&utm_campaign=scraping&utm_term=python-rucaptcha)
+
 <hr>
 
 [![PyPI version](https://badge.fury.io/py/python-rucaptcha.svg)](https://badge.fury.io/py/python-rucaptcha)
 [![Python versions](https://img.shields.io/pypi/pyversions/python-rucaptcha.svg?logo=python&logoColor=FBE072)](https://badge.fury.io/py/python-rucaptcha)
 [![Downloads](https://pepy.tech/badge/python-rucaptcha/month)](https://pepy.tech/project/python-rucaptcha)
+[![Static Badge](https://img.shields.io/badge/docs-Sphinx-green?label=Documentation&labelColor=gray)](https://andreidrang.github.io/python-rucaptcha/)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/aec93bb04a277cf0dde9/maintainability)](https://codeclimate.com/github/AndreiDrang/python-rucaptcha/maintainability)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b4087362bd024b088b358b3e10e7a62f)](https://www.codacy.com/gh/AndreiDrang/python-rucaptcha/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AndreiDrang/python-rucaptcha&amp;utm_campaign=Badge_Grade)
@@ -31,13 +31,11 @@ The library is intended for software developers and is used to work with the [Ru
 
 Support of the service [Death By Captcha](https://deathbycaptcha.com?refid=1237267242) is integrated into this library, more information in the library documentation or in the [service docs](https://deathbycaptcha.com/api/2captcha?refid=1237267242).
 
-***
-
 Application in [RuCaptcha software](https://rucaptcha.com/software/python-rucaptcha) and [2Captcha software](https://2captcha.com/software/python-rucaptcha).
 
-If you have any questions, please send a message to the [Telegram](https://t.me/pythoncaptcha) chat room.
+***
 
-Or email python-captcha@pm.me
+You can check our other projects here - [RedPandaDev group](https://red-panda-dev.xyz/blog/).
 
 ***
 
@@ -60,3 +58,9 @@ pip install python-rucaptcha
 ### Changelog
 
 Check [releases page](https://github.com/AndreiDrang/python-rucaptcha/releases).
+
+### Contacts
+
+If you have any questions, please send a message to the [Telegram](https://t.me/pythoncaptcha) chat room.
+
+Or email python-captcha@pm.me

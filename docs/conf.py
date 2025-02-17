@@ -6,25 +6,35 @@ from pallets_sphinx_themes import ProjectLink
 from python_rucaptcha import (
     core,
     control,
+    tencent,
     gee_test,
     hcaptcha,
     turnstile,
     amazon_waf,
+    mt_captcha,
     re_captcha,
+    atb_captcha,
     capy_puzzle,
     fun_captcha,
     key_captcha,
+    grid_captcha,
     text_captcha,
     image_captcha,
+    lemin_captcha,
     rotate_captcha,
-    yandex_smart_captcha,
-    lemin_cropped_captcha,
+    datadome_captcha,
+    friendly_captcha,
+    cyber_siara_captcha,
+    draw_around_captcha,
+    bounding_box_captcha,
 )
 from python_rucaptcha.__version__ import __version__
 
 # -- Project information -----------------------------------------------------
 project = "python-rucaptcha"
-copyright = f"{date.today().year}, AndreiDrang; Release - {__version__}; Last update - {date.today()}"
+copyright = (
+    f"{date.today().year}, " + f"AndreiDrang; Release - {__version__};" + f"Last update - {date.today()}"
+)
 author = "AndreiDrang"
 
 # -- General configuration ---------------------------------------------------
@@ -32,7 +42,8 @@ extensions = (
     "myst_parser",
     "sphinx.ext.napoleon",
     "pallets_sphinx_themes",
-    "sphinxcontrib.autodoc_pydantic",
+    "enum_tools.autoenum",
+    "notfound.extension",
 )
 myst_enable_extensions = ["deflist"]
 intersphinx_mapping = {"python": ("https://docs.python.org/3.10/", None)}
@@ -44,8 +55,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "jinja"
 html_theme_options = {"index_sidebar_logo": False}
 html_static_path = ["_static"]
-html_favicon = "_static/CaptchaESm.png"
-html_logo = "_static/CaptchaSm.png"
+html_favicon = "_static/favicon.png"
+html_logo = "_static/RuCaptchaMedium.png"
 html_title = f"python-rucaptcha ({__version__})"
 html_show_sourcelink = False
 
@@ -61,6 +72,7 @@ html_context = {
             "DeathByCaptcha",
             "https://deathbycaptcha.com?refid=1237267242",
         ),
+        ProjectLink("RedPandaDev group", "https://red-panda-dev.xyz/blog/"),
     ]
 }
 html_sidebars = {
@@ -92,7 +104,3 @@ napoleon_attr_annotations = True
 autodoc_preserve_defaults = False
 autodoc_member_order = "bysource"
 autodoc_class_signature = "mixed"
-
-# Pydantic
-autodoc_pydantic_model_show_json = True
-autodoc_pydantic_settings_show_json = False
